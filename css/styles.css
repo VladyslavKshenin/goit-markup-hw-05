@@ -892,7 +892,7 @@ margin-bottom: 16px;
     fill: transparent;
 }
 
-.modal-form-input-checkbox:checked + .modal-form-icon-span{
+.modal-form-input-checkbox:checked + .modal-form-checkbox-label .modal-form-icon-span{
     background-color: var(--modal-form-checbox-icon-color);
         border: none;
         fill: #F4F4FD;;
@@ -901,6 +901,7 @@ margin-bottom: 16px;
 
 .modal-form-icon-checkbox {
             color: var(--modal-form-checbox-icon-color);
+            
 }
 
 .modal-form-btm{
